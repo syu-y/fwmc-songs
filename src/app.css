@@ -5,3 +5,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'NikkyouSans';
+  src: url('@/font/NikkyouSans-mLKax.ttf') format('ttf');
+}
