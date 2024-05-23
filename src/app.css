@@ -9,3 +9,19 @@
   font-family: 'NikkyouSans';
   src: url('@/font/NikkyouSans-mLKax.ttf') format('ttf');
 }
+/* テキスト・背景のフワモコカラー */
+.theme {
+  background-color: #f9f1e4;
+}
+.theme-fww {
+  background-color: #67b2ff;
+}
+.theme-mcc {
+  background-color: #f7a6ca;
+}
+.text-fww {
+  color: #2d87f7;
+}
+.text-mcc {
+  color: #ff82c9;
+}

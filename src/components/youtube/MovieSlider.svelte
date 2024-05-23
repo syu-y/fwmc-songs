@@ -29,8 +29,11 @@
 </script>
 
 <div>
-	<h1>New MV</h1>
-	<swiper-container class="swiper" loop="true" effect="cards" grab-cursor="true" bind:this={swiperEl}>
+	<swiper-container class="swiper" 
+		navigation="true" loop="true" 
+		effect="cards" 
+		grab-cursor="true" 
+		bind:this={swiperEl}>
 		{#each VideoIds as item}
 			<swiper-slide class="swiper-slide">
 				<a href={YoutubeUrlSrc.Movie.url + item} target="blank">
@@ -43,6 +46,7 @@
 
 <style>
   .swiper {
+		color: black;
 		width: 50%;
 	}
 	.swiper-slide::before {
@@ -103,5 +107,11 @@
 	.swiper-slide:nth-child(7n) {
 		background-color: rgb(0, 68, 255);
 	}
-
+	
+	::part(button-prev)  {
+		color: #2d87f7;
+	}
+	::part(button-next) {
+		color: #ff82c9;
+	}
 </style>

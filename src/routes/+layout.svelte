@@ -5,8 +5,8 @@
   import Main from '@/components/layout/Main.svelte';
 </script>
 
-<div class="flex flex-col h-screen text-black font-NikkyouSans">
-  <div class="sticky top-0 z-50 bg-cyan-100">
+<div class="flex flex-col h-screen text-black font-NikkyouSans theme">
+  <div class="sticky top-0 z-50 theme-fww">
     <Header />
   </div>
 
@@ -16,7 +16,7 @@
     </Main>
   </div>
   
-  <div class="sticky top-0 z-50 bg-pink-100">
+  <div class="sticky top-0 z-50 theme-mcc">
     <Footer />
   </div>
 </div>
