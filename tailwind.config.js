@@ -1,3 +1,4 @@
+import plugin from 'tailwindcss/plugin';
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -9,5 +10,11 @@ export default {
       NikkyouSans:["NikkyouSans"]
     }
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addVariant }) {
+      addVariant('optional', '&:optional')
+      addVariant('hocus', ['&:hover', '&:focus'])
+      addVariant('inverted-colors', '@media (inverted-colors: inverted)')
+    })
+  ],
 }

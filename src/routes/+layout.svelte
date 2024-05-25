@@ -5,8 +5,8 @@
   import Main from '@/components/layout/Main.svelte';
 </script>
 
-<div class="flex flex-col h-screen text-black font-NikkyouSans theme">
-  <div class="sticky top-0 z-50 theme-fww">
+<div class="flex flex-col h-screen text-black theme">
+  <div class="sticky top-0 z-50 font-NikkyouSans theme-fww">
     <Header />
   </div>
 

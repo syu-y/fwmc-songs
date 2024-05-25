@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+model Song {
+  id        Int     @id @default(autoincrement())
+  title     String
+  videoId   String
+  artist    String
+  streamId  Int
+  stream    Stream? @relation(fields: [streamId], references: [id])
+  time      String
+  published Boolean @default(false)
+}
+
+model Stream {
+  id    Int      @id @default(autoincrement())
+  title String   @unique
+  date  DateTime
+  songs Song[]
+}

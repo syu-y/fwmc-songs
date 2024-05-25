@@ -11,6 +11,9 @@ export const YoutubeUrlSrc = {
   },
   Movie: {
     url: 'https://www.youtube.com/watch?v=',
+    option: {
+      time: '&t=',
+    },
   },
 };
 

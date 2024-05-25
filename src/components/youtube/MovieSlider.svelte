@@ -80,38 +80,18 @@
 		color: #fff;
 	}
 	
-	.swiper-slide:nth-child(1n) {
-		background-color: rgb(206, 17, 17);
+	.swiper-slide:nth-child(odd) {
+		background-color: #2d87f7;
 	}
 
-	.swiper-slide:nth-child(2n) {
-		background-color: rgb(0, 140, 255);
-	}
-
-	.swiper-slide:nth-child(3n) {
-		background-color: rgb(218, 12, 218);
-	}
-
-	.swiper-slide:nth-child(4n) {
-		background-color: rgb(10, 184, 111);
-	}
-
-	.swiper-slide:nth-child(5n) {
-		background-color: rgb(211, 122, 7);
-	}
-
-	.swiper-slide:nth-child(6n) {
-		background-color: rgb(180, 10, 47);
-	}
-
-	.swiper-slide:nth-child(7n) {
-		background-color: rgb(0, 68, 255);
+	.swiper-slide:nth-child(even) {
+		background-color: #ff82c9;
 	}
 	
 	::part(button-prev)  {
-		color: #2d87f7;
+		color: black;
 	}
 	::part(button-next) {
-		color: #ff82c9;
+		color: black;
 	}
 </style>
