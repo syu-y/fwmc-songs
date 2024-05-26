@@ -3,7 +3,7 @@
 	import { register } from 'swiper/element/bundle';
 	import Swiper from 'swiper';
   import type { CSSSelector } from 'swiper/types';
-  import { NewCoverSongIds, YoutubeUrlSrc } from '@/const/youtube';
+  import { NewCoverSongIds, YoutubeUrlSrc } from '@/const/url';
 
 	register();
 
@@ -47,7 +47,6 @@
 <style>
   .swiper {
 		color: black;
-		width: 50%;
 	}
 	.swiper-slide::before {
 		content: '';

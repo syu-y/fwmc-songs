@@ -2,7 +2,7 @@
 </script>
 
 <footer>
-	<div class="flex items-center justify-between w-full px-2 border-b">
+	<div class="flex items-center justify-between px-2 border-b">
 
     <div class="hidden me-12 lg:block">
 			<!-- TODO: Twitter開設 -->

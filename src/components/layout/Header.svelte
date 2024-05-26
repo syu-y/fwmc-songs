@@ -1,8 +1,8 @@
 <script lang="ts">
 </script>
 
-<header>
-	<nav class="flex items-center justify-between w-full px-2 border-b">
+<header class="">
+	<nav class="flex items-center justify-between px-2">
 		<span>
 			<div class="py-1 text-2xl font-logo">
 				<a class="font-extrabold align-baseline" href="/">FWMC SONGs</a>
@@ -10,3 +10,6 @@
 		</span>
 	</nav>
 </header>
+
+<style>
+</style>

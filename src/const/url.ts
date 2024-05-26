@@ -1,4 +1,5 @@
 export const YoutubeUrlSrc = {
+  Channel: 'https://www.youtube.com/@FUWAMOCOch',
   Thumbnail: {
     PreUrl: 'https://img.youtube.com/vi/',
     PostSize: {
@@ -13,6 +14,18 @@ export const YoutubeUrlSrc = {
     url: 'https://www.youtube.com/watch?v=',
     option: {
       time: '&t=',
+    },
+  },
+};
+
+export const OtherUrlSrc = {
+  x: {
+    account: 'https://x.com/fuwamoco_en',
+    tag: {
+      streaming: 'https://twitter.com/hashtag/FUWAMOCO',
+      fanArt: 'https://twitter.com/hashtag/FWMCpix',
+      clip: 'https://twitter.com/hashtag/lilFWMC',
+      music: 'https://twitter.com/hashtag/FWMCbeats',
     },
   },
 };

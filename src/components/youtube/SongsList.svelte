@@ -7,7 +7,7 @@
     renderComponent,
   } from '@tanstack/svelte-table'
   import type { Song } from '@/types/Youtube';
-  import { YoutubeUrlSrc } from '@/const/youtube';
+  import { YoutubeUrlSrc } from '@/const/url';
   import PlayLink from './PlayLink.svelte';
 
   export let songs: Song[];
