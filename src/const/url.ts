@@ -31,8 +31,12 @@ export const OtherUrlSrc = {
 };
 
 export const NewCoverSongIds = {
-  0: '93FgkYhAQmI',
-  1: 'D8YflSQi1Vk',
-  2: 'xuvZmeVhqY4',
-  3: 'TXmrfsf9PMw',
+  0: 'Yr1EI_jYBB8',
+  1: '-wzgy7uTuSk',
+  2: 'XYmZUh_YAq0',
+  3: 'B9qgXaihce8',
+  5: 'xuvZmeVhqY4',
+  4: 'TXmrfsf9PMw',
+  6: 'D8YflSQi1Vk',
+  7: '93FgkYhAQmI',
 };

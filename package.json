@@ -34,6 +34,7 @@
 	"type": "module",
 	"dependencies": {
 		"@prisma/client": "^5.14.0",
+		"@tanstack/match-sorter-utils": "^8.15.1",
 		"@tanstack/svelte-table": "^8.17.3",
 		"datatables.net-dt": "^2.0.7",
 		"jquery": "^3.7.1",
